@@ -1,0 +1,74 @@
+body {
+    background-image: url(../image/peak-game-meny.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Cookiemonster;
+    margin: 0; 
+    padding: 0;
+    
+}
+
+.container {
+   max-width: 900px;
+   margin: 0 auto;
+   background-color: rgba(10, 10, 10, 0.8);
+   padding: 1px 10px;
+}
+
+.game-video {
+    position-anchor: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+
+    color: #ae1e80;
+    font-size: xx-large;
+    font-family: Cookiemonster;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2 {
+    color: #f5a142;
+    font-size: x-large;
+    font-family: Cookiemonster;
+    text-align: center;
+}
+
+
+
+p {
+    color: #1bb546;
+    font-size: large;
+    font-family: Cookiemonster;
+    text-align: center;
+}
+
+.game-tasks {
+    color: #42a1f5;
+    font-size: large;
+    font-family: Cookiemonster;
+    display: flex;
+    justify-content: center;
+}
+
+.credit {
+    color: #42a1f5;
+    font-size: large;
+    font-family: Cookiemonster;
+    display: flex;
+    justify-content: center;
+}
+   
+
+@font-face {
+    font-family: Cookiemonster;
+    src: url(../fonts/Cookiemonster-gv11.ttf);
+}
